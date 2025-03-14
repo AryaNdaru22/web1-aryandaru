@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Idea</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem;
+        }
+        header .logo {
+            color: #2F855A;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        header nav a {
+            color: #4A5568;
+            margin-right: 1.5rem;
+            text-decoration: none;
+        }
+        header nav a:hover {
+            color: #2D3748;
+        }
+        header .get-started {
+            background-color: #ECC94B;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            text-decoration: none;
+        }
+        header .get-started:hover {
+            background-color: #D69E2E;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1.5rem;
+        }
+        @media (min-width: 768px) {
+            main {
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 3rem;
+            }
+        }
+        main .content {
+            max-width: 50%;
+            margin-bottom: 1.5rem;
+        }
+        main .content h1 {
+            color: #2F855A;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        main .content p {
+            color: #4A5568;
+            margin: 1.5rem 0;
+        }
+        main .content a {
+            background-color: #ECC94B;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            text-decoration: none;
+        }
+        main .content a:hover {
+            background-color: #D69E2E;
+        }
+        main .image {
+            max-width: 50%;
+        }
+        main .image img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">NDARWEB</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+        </nav>
+        <a href="#" class="get-started">Get Started</a>
+    </header>
+    <main>
+        <div class="content">
+            <h1>ARYA PRAMUDIA SURYA NDARU</h1>
+            <p>NIM 243307034/2B. 
+                The best error message is the one that never shows up.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="image">
+            <img src="https://www.nesabamedia.com/wp-content/uploads/2019/02/multimedia.jpg" alt="Illustration of people working on a creative project at a desk with a computer and plants">
+        </div>
+    </main>
+</body>
+</html>
